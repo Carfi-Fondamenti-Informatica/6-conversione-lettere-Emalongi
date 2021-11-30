@@ -1,7 +1,8 @@
 #include "lib.h"
 
 bool conversione (char &a) {
-    if ((a >= 65 and a <= 90) or (a >= 97 and a <= 122)) {
+    bool=t;
+    if ((a>=65 and a <=90) or (a>=97 and a<=122)) {
         if(a>=65 and a<=90){
             a=a+32;
             return a;
@@ -11,5 +12,6 @@ bool conversione (char &a) {
         }return true;
     } else {
         return false;
-    }
+    } 
+    return t;
 }
